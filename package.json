@@ -1,0 +1,23 @@
+{
+  "name": "getmyip",
+  "version": "1.0.0",
+  "description": "An API just to get informarion about yourself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuzu-project/getmyip.git"
+  },
+  "keywords": [
+    "ipv4",
+    "ip"
+  ],
+  "author": "Renato Yamassaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuzu-project/getmyip/issues"
+  },
+  "homepage": "https://github.com/yuzu-project/getmyip#readme"
+}
