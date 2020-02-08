@@ -9,4 +9,4 @@ COPY ./package*.json /app/
 WORKDIR /app
 RUN npm install
 COPY ./src /app/src
-CMD [ "node", "/app/src/index.js" ]
+CMD [ "node", "./src/index.js" ]
