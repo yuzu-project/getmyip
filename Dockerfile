@@ -1,6 +1,6 @@
 FROM node:13.8-alpine
 LABEL description="Yet another IP information API"
-LABEL version="1.0"
+LABEL version="1.1.0"
 LABEL author="renato@yuzu-project.com"
 
 RUN apk update && \
