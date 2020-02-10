@@ -4,6 +4,8 @@
   "description": "An API just to get informarion about yourself.",
   "main": "src/index.js",
   "scripts": {
+    "start": "node ./src/index.js",
+    "debug": "nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,9 +26,11 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "request-ip": "^2.1.3"
   }
 }

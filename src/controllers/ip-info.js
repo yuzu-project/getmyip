@@ -1,6 +1,6 @@
 
 function get(request, response) {
-  const ip = request.ip || request.connection.remoteAddress;
+  const ip = request.clientIp;
   const statusCode = ip ? 200 : 500;
   response.status(statusCode)
     .json({
